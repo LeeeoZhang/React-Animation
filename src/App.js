@@ -46,7 +46,7 @@ export default class App extends Component {
         return (
             <div className="App">
                 <CodeEditor currentCode={this.state.currentCode}
-                            fullCode={code[this.state.part]} allCode={this.state.fullCode}/>
+                            fullCode={this.state.fullCode} allCode={this.state.fullCode}/>
                 <ShowEdit pikachuHTMLString={pikachuHTMLString}/>
             </div>
         )
