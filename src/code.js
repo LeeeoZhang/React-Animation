@@ -71,6 +71,7 @@ html{
 </div>
 */
 
+/* 下面来写css */
 /* 限定一个范围，皮卡丘的脸就在这 */
 .showEdit > #container {
     width: 40vw;
@@ -225,7 +226,7 @@ html{
 
 /*
 如果你喜欢这个动画
-欢迎fork和start
+欢迎fork和start：https://github.com/LeeeoZhang/React-Animation
 Tel：13922584606
 Email：leozhang621@gmail.com
 */
