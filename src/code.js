@@ -112,25 +112,25 @@ html{
 }
 /* 左眼瞳孔 */
 .eye-left::before {
-    position: absolute;
-    content: '';
     width: 25px;
     height: 25px;
+    content: '';
     background: #fff;
     border: 2px solid #2E2E2E;
     border-radius: 50%;
+    position: absolute;
     top: 2px;
     left: 5px;
 }
 /* 右眼瞳孔 */
 .eye-right::before {
-    position: absolute;
-    content: '';
     width: 25px;
     height: 25px;
+    content: '';
     background: #fff;
     border: 2px solid #2E2E2E;
     border-radius: 50%;
+    position: absolute;
     top: 2px;
     left: 5px;
 }
@@ -169,29 +169,29 @@ html{
 
 /* 下嘴唇容器 */
 .lowerlips-wrap {
+    width: 150px;
+    height: 200px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     top: 130px;
-    width: 150px;
-    height: 200px;
     overflow: hidden;
 }
 /* 下嘴唇 */
 .lowerlips {
-    position: absolute;
     width: 200px;
     height: 1500px;
     border: 3px solid black;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 0px;
     border-bottom-left-radius: 150px 1100px;
     border-bottom-right-radius: 150px 1100px;
     border-top-left-radius: 150px 170px;
     border-top-right-radius: 150px 170px;
     background: #FF485F;
     box-shadow: inset 0 1315px 0 20px #9B000A;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0px;
 }
 /* 两个脸蛋容器 */
 .face {
